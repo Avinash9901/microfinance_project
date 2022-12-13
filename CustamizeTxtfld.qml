@@ -1,0 +1,19 @@
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtQuick.Dialogs 1.3
+
+    TextField{
+        property bool tffocus:true
+         property int tfwidth;
+         property int tfheight;
+         property string tfplaceholder;
+        // property Validator tfvalidate;
+        id:name1
+        focus: tffocus
+        width: tfwidth
+        height:tfheight
+        placeholderText:tfplaceholder
+        //font.pixelSize: textfieldpixel
+        //validator : RegExpValidator { regExp: /[a-zA-Z]+/}
+
+    }
